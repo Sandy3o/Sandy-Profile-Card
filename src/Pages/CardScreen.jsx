@@ -28,11 +28,11 @@ const CardScreen = () => {
         <div className="flex items-center gap-2">
           <MdOutlineWorkHistory size={26} />
           <p className="font-medium text-[12px] sm:text-[14px] md:text-[16px]">
-            MSc Infomaton Technology
+            MSc Information Technology
           </p>
         </div>
         <p className="text-[11px] sm:text-[12px] md:text-[13px] font-medium text-center md:text-left">
-          💻 Full Stack Developer in Python | 📹 Video Editor
+          💻 Full Stack Developer in Python | 🎮 Gamer
         </p>
 
         {/* Social Media Icons */}
