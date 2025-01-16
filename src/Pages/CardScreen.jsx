@@ -5,7 +5,7 @@ import profile from "../assets/profile.jpg";
 
 const CardScreen = () => {
   return (
-    <div className="w-[90%] sm:w-[70%] md:w-[60%] lg:w-[50%] h-[90%] bg-[#ee8282] rounded-[5px] grid grid-cols-1 md:grid-cols-2 p-4">
+    <div className="w-[90%] sm:w-[70%] md:w-[60%] lg:w-[50%] h-auto bg-[#ee8282] rounded-[5px] grid grid-cols-1 md:grid-cols-2 p-4">
       {/* Profile Image */}
       <div className="col-span-1 flex justify-center items-center">
         <img
