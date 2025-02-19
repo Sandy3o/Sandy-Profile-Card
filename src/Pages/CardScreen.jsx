@@ -5,11 +5,11 @@ import profile from "../assets/profile.jpg";
 
 const CardScreen = () => {
   return (
-    <div className="w-[90%] sm:w-[70%] md:w-[60%] lg:w-[50%] h-auto bg-[#ee8282] rounded-[5px] grid grid-cols-1 md:grid-cols-2 p-4">
+    <div className="w-[90%] sm:w-[70%] md:w-[60%] lg:w-[50%] h-auto bg-[#ee8282] rounded-[20px] grid grid-cols-1 md:grid-cols-2 py-10">
       {/* Profile Image */}
       <div className="col-span-1 flex justify-center items-center">
         <img
-          className="w-[60%] sm:w-[70%] md:w-[90% ] h-auto object-cover rounded-tl-[20px] rounded-br-[20px] rounded-bl-[20px] rounded-tr-[20px]"
+          className="w-[60%] sm:w-[70%] md:w-[90% ] h-auto object-cover rounded-[20px]"
           src={profile}
           alt="Profile"
         />
